@@ -4,11 +4,12 @@
 
 .body.home {
   height: 100%;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/home-bg-img.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/home-bg-img.jpg');
-  background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
+ /*background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/home-hems.jpg');*/
+ /*background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/home-hems.jpg');*/
+  background-image: url('../images/home-hems.jpg');
+  background-position: 50% 85%;
+  /*background-size: auto, cover;*/
+  background-repeat: no-repeat;
 }
 
 .navbar {
@@ -27,20 +28,21 @@
   margin: 16px 20px 2px;
   padding: 10px 0px 2px;
   border-bottom: 2px solid rgba(236, 147, 59, 0);
-  color: #48c2c5;
+  /*color: #48c2c5;*/
+  color: black;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .nav-link.w--current {
-  border-bottom-color: #ec933b;
-  color: #48c2c5;
+  border-bottom-color: #00712e;
+  color: black;
 }
 
 .nav-link.contact {
   margin-right: 0px;
   padding: 8px 15px;
-  border: 2px solid #ec933b;
+  border: 2px solid #00712e;
 }
 
 .nav-link.contact.w--current {
@@ -48,11 +50,14 @@
 }
 
 .cover-section {
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/home-bg-img.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/home-bg-img.jpg');
+  /*background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/home-hems.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/home-hems.jpg');
   background-position: 0px 0px, 50% 22%;
   background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
+  background-repeat: repeat, no-repeat;*/
+  background-image: url('../images/home-hems.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .cover-container {
@@ -138,7 +143,7 @@
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 35px;
-  color: #ec933b;
+  color: #00712e;
   font-size: 22px;
   font-weight: 600;
 }
@@ -189,8 +194,8 @@
 .home-cover-heading {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 38vh;
-  color: #fff;
+  padding-top: 0vh;
+  color: #00712e;
   font-size: 42px;
   line-height: 46px;
   font-weight: 400;

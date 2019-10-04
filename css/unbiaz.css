@@ -34,7 +34,7 @@
 }
 
 .nav-link.w--current {
-  border-bottom-color: #fff;
+  border-bottom-color: #00712e;
   color:#00712e;
 }
 
@@ -421,7 +421,7 @@ html.w-mod-js *[data-ix="home-text"] {
     margin-left: auto;
     padding-top: 14px;
     padding-bottom: 14px;
-    background-color: #00712e;
+    background-color: #fff;
     box-shadow: 0 1px 14px 2px rgba(0, 0, 0, .3);
     text-align: center;
   }

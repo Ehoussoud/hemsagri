@@ -52,6 +52,7 @@
   /*height: 100vh;*/
   /*width: 100vw;*/
   background: #00712e;
+  margin-top: 25px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr)) ;
   /*grid-gap: 1rem;*/
@@ -211,7 +212,7 @@
   margin-left: auto;
 }
 
-.home-cover-heading {
+.home-cover-heading, h2{
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0vh;

@@ -28,14 +28,14 @@
   margin: 16px 20px 2px;
   padding: 10px 0px 2px;
   border-bottom: 2px solid rgba(236, 147, 59, 0);
-  color: black;
+  color: #00712e;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .nav-link.w--current {
-  border-bottom-color: #00712e;
-  color: black;
+  border-bottom-color: #fff;
+  color:#00712e;
 }
 
 .nav-link.contact {

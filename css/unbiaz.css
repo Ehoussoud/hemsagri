@@ -58,6 +58,11 @@
   /*grid-gap: 1rem;*/
 }
 
+
+.beans{
+   border-right: 1px solid gray;
+}
+
 .beans strong, .beans p{
   color: white;
 }
@@ -68,6 +73,7 @@
 
 .info{
   text-align: center;
+
 }
 
 .cover-section {
@@ -76,7 +82,7 @@
   background-position: 0px 0px, 50% 22%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;*/
-  background-image: url('../images/home-hems.jpg');
+  /*background-image: url('../images/home-hems.jpg');*/
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -94,7 +100,7 @@
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 10px;
-  color: #fff;
+  color: #00712e;
   text-align: center;
 }
 
